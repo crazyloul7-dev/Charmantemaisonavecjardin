@@ -33,7 +33,7 @@
 
 <section id="maison">
   <h2>La maison</h2>
-  <p>Maison confortable pour X personnes avec tout le nécessaire : cuisine équipée, Wi-Fi, jardin, etc.</p>
+  <p>Maison confortable pour 4 à 6 personnes avec tout le nécessaire : cuisine équipée, Wi-Fi, jardin, etc.</p>
 </section>
 
 <section id="photos">
@@ -47,17 +47,17 @@
 
 <section id="tarifs">
   <h2>Tarifs</h2>
-  <p>À partir de XX€/nuit</p>
+  <p>À partir de 89€/nuit</p>
 </section>
 
 <section id="contact">
   <h2>Contact</h2>
-  <p>Email : contact@email.com</p>
-  <p>Téléphone : +33...</p>
+  <p>Email : flavien.v@laposte.net</p>
+  <p>Téléphone : +33638701428</p>
 </section>
 
 <footer>
-  <p>© 2026 - Maison de vacances</p>
+  <p>© 2026 - Maison de vacances classé 4 étoiles</p>
 </footer>
 
 </body>

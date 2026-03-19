@@ -20,7 +20,7 @@
 
 <header>
   <h1>Bienvenue à [Nom de la maison]</h1>
-  <p>Votre séjour idéal à [ville]</p>
+  <p>Votre séjour idéal à [Saint jean fe monts]</p>
   <a href="#contact" class="btn">Réserver</a>
 </header>
 

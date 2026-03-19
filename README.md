@@ -39,9 +39,9 @@
 <section id="photos">
   <h2>Photos</h2>
   <div class="grid">
-    <img src="https://via.placeholder.com/300">
-    <img src="https://via.placeholder.com/300">
-    <img src="https://via.placeholder.com/300">
+    <img src="https://drive.google.com/file/d/1ZA68GePGu_FA1NsXKR8BI-7l6PGWYDM2/view?usp=drivesdk">
+    <img src="https://drive.google.com/file/d/1_Krn71pA4f-tlaR9nipgYaDhaQVeljM5/view?usp=drivesdk">
+    <img src="https://drive.google.com/file/d/14iHL280wHNVN9czuZGHjKOYfEQ12pd_I/view?usp=drivesdk">
   </div>
 </section>
 

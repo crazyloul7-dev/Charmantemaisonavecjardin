@@ -57,7 +57,7 @@
 </section>
 
 <footer>
-  <p>© 2026 - Maison de vacances classé 4 étoiles</p>
+  <p>© 2026 - Maison de vacances classée 4 étoiles</p>
 </footer>
 
 </body>

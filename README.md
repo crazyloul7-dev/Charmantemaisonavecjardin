@@ -1,64 +1,177 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html><html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maison de vacances</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; }
-    header { background: url('https://via.placeholder.com/1200x500') center/cover; color: white; padding: 100px 20px; text-align: center; }
-    nav { background: #333; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 15px; text-decoration: none; }
-    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
-    .grid img { width: 100%; border-radius: 10px; }
-    .btn { background: #007BFF; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; }
-    footer { background: #222; color: white; text-align: center; padding: 20px; }
-  </style>
-</head>
-<body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maison de vacances</title><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"><style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  background: #fff;
+}
 
-<header>
-  <h1>Bienvenue à [Nom de la maison]</h1>
-  <p>Votre séjour idéal à [Saint jean fe monts]</p>
-  <a href="#contact" class="btn">Réserver</a>
-</header>
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://via.placeholder.com/1600x900') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
 
-<nav>
-  <a href="#maison">La maison</a>
-  <a href="#photos">Photos</a>
-  <a href="#tarifs">Tarifs</a>
-  <a href="#contact">Contact</a>
-</nav>
+.hero h1 {
+  font-size: 60px;
+  margin: 0;
+}
 
-<section id="maison">
-  <h2>La maison</h2>
-  <p>Maison confortable pour 4 à 6 personnes avec tout le nécessaire : cuisine équipée, Wi-Fi, jardin, etc.</p>
-</section>
+.hero p {
+  font-size: 22px;
+  margin-top: 10px;
+}
 
-<section id="photos">
-  <h2>Photos</h2>
-  <div class="grid">
-    <img src="https://drive.google.com/file/d/1ZA68GePGu_FA1NsXKR8BI-7l6PGWYDM2/view?usp=drivesdk">
-    <img src="https://drive.google.com/file/d/1_Krn71pA4f-tlaR9nipgYaDhaQVeljM5?usp=drivesdk">
-    <img src="https://drive.google.com/file/d/14iHL280wHNVN9czuZGHjKOYfEQ12pd_I/view?usp=drivesdk">
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 30px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* GRID PHOTOS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.grid img:hover {
+  transform: scale(1.05);
+}
+
+/* FEATURES */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.feature {
+  background: #f7f7f7;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* SPLIT SECTION */
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.split img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* CONTACT */
+.contact-box {
+  text-align: center;
+  background: #111;
+  color: white;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+/* FOOTER */
+footer {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+/* MOBILE */
+@media(max-width: 800px) {
+  .hero h1 { font-size: 40px; }
+  .split { grid-template-columns: 1fr; }
+}
+
+</style></head>
+<body><!-- HERO --><div class="hero">
+  <div>
+    <h1>[Nom de la maison]</h1>
+    <p>Une expérience unique à [ville]</p>
+    <a href="#contact" class="btn">Réserver maintenant</a>
   </div>
-</section>
-
-<section id="tarifs">
+</div><!-- DESCRIPTION --><section class="split">
+  <img src="https://via.placeholder.com/600x400">
+  <div>
+    <h2>Un lieu d'exception</h2>
+    <p>
+      Profitez d’un séjour inoubliable dans une maison pensée pour votre confort.
+      Idéale pour se détendre, se retrouver et profiter d’un cadre unique.
+    </p>
+  </div>
+</section><!-- FEATURES --><section>
+  <h2>Équipements</h2>
+  <div class="features">
+    <div class="feature">Wi-Fi haut débit</div>
+    <div class="feature">Cuisine équipée</div>
+    <div class="feature">Piscine privée</div>
+    <div class="feature">Parking gratuit</div>
+  </div>
+</section><!-- PHOTOS --><section>
+  <h2>Galerie</h2>
+  <div class="grid">
+    <img src="https://via.placeholder.com/300">
+    <img src="https://via.placeholder.com/300">
+    <img src="https://via.placeholder.com/300">
+    <img src="https://via.placeholder.com/300">
+  </div>
+</section><!-- TARIFS --><section>
   <h2>Tarifs</h2>
-  <p>À partir de 89€/nuit</p>
-</section>
-
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email : flavien.v@laposte.net</p>
-  <p>Téléphone : +33638701428</p>
-</section>
-
-<footer>
-  <p>© 2026 - Maison de vacances classée 4 étoiles</p>
-</footer>
-
-</body>
+  <p style="text-align:center; font-size:20px;">À partir de XX€/nuit</p>
+</section><!-- CONTACT --><section id="contact">
+  <div class="contact-box">
+    <h2>Réserver votre séjour</h2>
+    <p>Email : flavien.v@laposte.net</p>
+    <p>Téléphone : +33638701428</p>
+  </div>
+</section><footer>
+  <p>© 2026 - Maison de vacances</p>
+</footer></body>
 </html>

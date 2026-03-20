@@ -158,9 +158,9 @@ footer {
   <h2>Galerie</h2>
   <div class="grid">
     <img src="https://drive.google.com/uc?export=view&id=14iHL280wHNVN9czuZGHjKOYfEQ12pd_I">
-    <img src="https://drive.google.com/uc?export=view&id=XXXXX">
-    <img src="https://drive.google.com/uc?export=view&id=XXXXX">
-    <img src="https://drive.google.com/uc?export=view&id=XXXXX">
+    <img src="https://drive.google.com/uc?export=view&id=1W4l14Y-QMHKxLPagM7Bn7pCU0F4MdoQ4">
+    <img src="https://drive.google.com/uc?export=view&id=1aAaYiuYspUipvRYH4sxfpgHTZXnAMdIm">
+    <img src="https://drive.google.com/uc?export=view&id=1ZA68GePGu_FA1NsXKR8BI-7l6PGWYDM2">
   </div>
 </section><!-- TARIFS --><section>
   <h2>Tarifs</h2>
